@@ -42,6 +42,7 @@ declare namespace auth{
         algorithm?: string;
         expiresIn?: string;
       }
+      [key: string]: any;
   }
   interface HashPassOptions{
     passwordField: string;
